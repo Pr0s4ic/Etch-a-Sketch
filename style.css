@@ -40,6 +40,10 @@ nav {
     background-color: white;
 }
 
+.box-black {
+    background-color: black;
+}
+
 .box:hover {
     background-color: gray;
 }
@@ -61,6 +65,8 @@ nav {
     padding: 1em;
     margin: 0.5em 3em;
     max-width: 12rem;
+    cursor: pointer;
+    user-select: none;
 }
 
 .sizes {
