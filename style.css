@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 3.5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    background-color: white;
+    height: calc(100vh - 3.5em);
+}
+
+.mode {
+    border: 0.2rem solid black;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mode:hover,
+.s:hover {
+    background-color: black;
+    color: white;
+    transition: 0.1s linear all;
+}
+
+.paper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: white;
+    width: 32rem;
+    height: 32rem;
+}
+
+.canvas-small {
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+}
+
+.canvas-medium {
+    width: 1em;
+    height: 1em;
+    background-color: red;
+}
+
+.canvas-large {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: green;
+}
+
+.canvas-small:hover,
+.canvas-medium:hover,
+.canvas-large:hover {
+    background-color: black;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.25em;
+}
+
+.col {
+    width: 2em;
+    height: 2em;
+    border: 0.2rem solid black;
+    cursor: pointer;
+}
+
+.col:hover {
+    border: 0.4rem solid black;
+    transition: 0.1s linear all;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.chartreuse {
+    background-color: chartreuse;
+}
+
+.green {
+    background-color: green;
+}
+
+.spring-green {
+    background-color: springgreen;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.dodger-blue {
+    background-color: dodgerblue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    gap: 0.4em;
+}
+
+.s {
+    padding: 0.25em;
+    text-align: center;
+    border: 0.15rem solid black;
+    cursor: pointer;
+}
